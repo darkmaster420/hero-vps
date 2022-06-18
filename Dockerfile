@@ -9,7 +9,7 @@ RUN apt-get update && \
     apt install novnc -y  && \ 
     apt install x11vnc -y  && \ 
     apt install xvfb -y  && \
-	apt install chromium-browser -y  && \
+    apt install chromium-browser -y  && \
     apt install supervisor -y  && \ 
     apt install xfce4 -y  && \
     apt install gnome-shell -y  && \
