@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+FROM codercom/code-server:4.0.2
 
 ENV DEBIAN_FRONTEND=noninteractive
 
