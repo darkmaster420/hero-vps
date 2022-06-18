@@ -1,11 +1,10 @@
 FROM ubuntu:latest
-FROM codercom/code-server:4.0.2
 
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN sudo apt-get update && sudo apt-get install -y apt-transport-https
 
-RUN sudo apt update && sudo apt install -y \
+RUN sudo apt-get update && sudo apt-get install -y \
     dbus-x11 \
     sudo \ 
     bash \ 
