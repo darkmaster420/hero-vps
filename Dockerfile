@@ -1,7 +1,7 @@
 FROM ubuntu:20.10
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && \
+RUN sudo apt update && \
     apt install dbus-x11 -y  && \
     apt install sudo -y  && \ 
     apt install bash -y  && \ 
