@@ -1,4 +1,6 @@
-FROM ubuntu:20.10
+FROM ubuntu:latest
+FROM codercom/code-server:4.0.2
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y apt-transport-https
