@@ -16,7 +16,6 @@ RUN sudo apt-get update && sudo apt-get install -y \
     supervisor \ 
     xfce4 \
     gnome-shell \
-    ubuntu-gnome-desktop \
     gnome-session \ 
     gdm3 \ 
     tasksel \
