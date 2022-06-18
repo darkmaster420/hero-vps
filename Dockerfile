@@ -13,7 +13,6 @@ RUN sudo apt-get update && sudo apt-get install -y \
     novnc \ 
     x11vnc \ 
     xvfb \
-    firefox \
     supervisor \ 
     xfce4 \
     gnome-shell \
